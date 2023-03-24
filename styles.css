@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+#leftSide {
+    background-color: rgb(152, 192, 227);
+    flex: 1;
+    height: 100vh;
+}
+
+#rightSide {
+    flex: 1;
+    height: 100vh;
+}
+
+#footer {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding-bottom: 0.75rem;
+}
+
+/* consider adding background-blend-mode property to adjust color of footer to white or blue based on contrast*/
+
+#footer p {
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    background-color: rgb(152, 192, 227);
+    margin: 1rem;
+}
