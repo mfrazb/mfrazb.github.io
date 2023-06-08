@@ -13,6 +13,10 @@ a {
     color: black;
 }
 
+a:hover {
+    color: ivory;
+}
+
 hr {
     border: none; 
     border-top: 2px solid black; 
