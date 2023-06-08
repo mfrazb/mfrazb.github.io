@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,45 @@
     <link rel="stylesheet" href="styles.css">
     <!--Google font families-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
     <!---->
+    <link rel="icon" href="images/mfb-favicon.ico">
+
+    <!--move script tag inside comment to turn off JS
+
+    -->
+    <script src="mfrazb.js" defer></script>
+
+
+
     <title>MFB</title>
 </head>
+
 <body>
-    <div class="container"> 
+    <div class="container">
         <div id="leftSide">
             <!--summary or bio-->
             <div id="bio"><strong>Meredith Frazier Britt</strong> is an urban planner turned software engineer.</div>
             <hr>
             <!--feature project 1-->
-            <div id="featureProject"><a href="https://mfrazb.github.io/fraziers-finer-flavors/" target="_blank"><strong>Frazier's Finer Flavors</strong></a></div>
-            <div>Collection of favorite recipes</div>
-            <hr>
+            <div class="feature project" id="fraziers"><a href="https://mfrazb.github.io/fraziers-finer-flavors/"
+                    target="_blank"><strong>Frazier's Finer Flavors</strong></a>
+                <div>Collection of favorite family recipes</div>
+                <hr>
+            </div>
             <!--feature project 2-->
-            <div><a href="https://mfrazb.github.io/odin-recipes/" target="_blank"><strong>2nd feature project</strong></a></div>
-            <div>Short description here</div>
-            <hr>
+            <div class="feature project" id="rock-paper-scissors"><a href="https://mfrazb.github.io/rock-paper-scissors/"
+                    target="_blank"><strong>Rock, Paper, Scissors</strong></a>
+                <div>First-time practice combining HTML/CSS with JS</div>
+                <hr>
+            </div>
             <!--other projects-->
             <div><strong>Other coding projects</strong></div>
-            <div><a href="#">Fancy shmancy pants</a></div>
+            <div>
+                <div class="other project" id="fancy-shmancy"><a href="#">Fancy shmancy pants</a></div>
+            </div>
         </div>
         <div id="rightSide">
             <!--Contact and resume-->
@@ -36,13 +54,16 @@
                 <div class="top-nav">
                     <div class="nav-link"><a href="#"><strong>Learn more</strong></a></div>
                 </div>
+                <div class="main-image">
+                </div>
                 <div class="bottom-nav">
                     <div class="nav-link"><strong><a href="#">Contact</strong></a></div>
                     <div class="nav-link"><a href="#"><strong>Download resume</strong></a></div>
-                </div>  
+                </div>
             </div>
         </div>
     </div>
-    
+
 </body>
+
 </html>
