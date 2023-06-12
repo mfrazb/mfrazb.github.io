@@ -16,8 +16,8 @@ function changeBackground(event) {
     if (event.target.id === "rock-paper-scissors") {
         rightSideImage.style.backgroundImage = "url(images/rock-paper-scissors-screenshot.png)";
     }
-    if (event.target.id === "fancy-shmancy") {
-        rightSideImage.style.backgroundImage = "url(images/hiplab-screenshot.png)";
+    if (event.target.id === "calculator") {
+        rightSideImage.style.backgroundImage = "url(images/calculator-screenshot.png)";
     }
 }
 
